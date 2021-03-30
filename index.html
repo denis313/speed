@@ -1,0 +1,19 @@
+<html>
+<head><title>Евтушок</title>
+<script>
+
+function loadQuestion(){
+var rate = prompt('С какой скоростью вы двигаетесь?');
+rate = parseInt(rate);
+var time = prompt('Как долго вы в пути?');
+time = parseInt(time);
+var distance = rate * time;
+
+alert(distance);
+}
+
+window.onload = loadQuestion;
+</script>
+</head>
+
+</html>
